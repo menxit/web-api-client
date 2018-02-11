@@ -2,7 +2,7 @@
 
 ## How to install?
 ```
-npm i -S web-api-client
+npm i -S @menxit/web-api-client
 ```
 
 ## How to make an http GET request?
