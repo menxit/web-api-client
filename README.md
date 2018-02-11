@@ -6,7 +6,7 @@ npm i -S web-api-client
 ```
 
 ## How to make an http GET request?
-```
+```js
 const WebAPI = require('./index.js');
 
 const webAPI = new WebAPI("https://api.coindesk.com/v1/bpi");
@@ -17,7 +17,7 @@ webAPI.get("currentprice/btcusd.json")
 ```
 
 ## How to make an http POST request with parameters?
-```
+```js
 const body = {
 	username: "peppa",
 	password: "pig",
@@ -31,21 +31,21 @@ webAPI.post("signup", body)
 ## Methods
 
 ### get
-```
+```js
 WebAPI.get(path, body, query, headers)
 ```
 
 ### post
-```
+```js
 WebAPI.post(path, body, query, headers)
 ```
 
 ### delete
-```
+```js
 WebAPI.delete(path, body, query, headers)
 ```
 
 ### put
-```
+```js
 WebAPI.put(path, body, query, headers)
 ```
