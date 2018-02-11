@@ -2,12 +2,12 @@
 
 ## How to install?
 ```
-npm i -S @menxit/web-api-client
+npm i -S menxapi
 ```
 
 ## How to make an http GET request?
 ```js
-const WebAPI = require('./index.js');
+const WebAPI = require('menxapi');
 
 const webAPI = new WebAPI("https://api.coindesk.com/v1/bpi");
 
