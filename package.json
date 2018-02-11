@@ -1,0 +1,14 @@
+{
+  "name": "web-api-client",
+  "version": "1.0.0",
+  "description": "A simple web api client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fetch-ponyfill": "^5.0.0"
+  }
+}
