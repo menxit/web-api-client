@@ -12,12 +12,10 @@ class WebAPI {
   }
 
   makeRequest(path, method, body, query = '', headers = {}) {
-    let token;
 
     let options = {
       headers: Object.assign({}, headers, {
         'Content-Type': 'application/json',
-        token,
       }),
       method,
     };
